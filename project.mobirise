@@ -1,0 +1,246 @@
+{
+  "settings": {
+    "name": "ebay_listing_template",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "startm5",
+      "title": "StartM5",
+      "titlePreset": "StartM5",
+      "styling": {
+        "primaryColor": "#9fe870",
+        "secondaryColor": "#9fe870",
+        "successColor": "#9fe870",
+        "infoColor": "#9fe870",
+        "warningColor": "#9fe870",
+        "dangerColor": "#9fe870",
+        "mainFont": "Inter Tight",
+        "display1Font": "Oswald",
+        "display1Size": "4.5",
+        "display2Font": "Oswald",
+        "display2Size": 4,
+        "display5Font": "Oswald",
+        "display5Size": 2,
+        "display7Font": "Oswald",
+        "display7Size": "1.6",
+        "display4Font": "Oswald",
+        "display4Size": 1.4,
+        "isRoundedImages": false,
+        "isRoundedButtons": false,
+        "isLargeButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.9.8",
+    "siteFonts": [
+      {
+        "css": "'Inter Tight', sans-serif",
+        "name": "Inter Tight",
+        "url": "https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Oswald', sans-serif",
+        "name": "Oswald",
+        "url": "https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700"
+      }
+    ],
+    "uniqCompNum": 3,
+    "versionPublish": "5.9.8",
+    "imageResize": true,
+    "favicon": false,
+    "mbrsiteDomain": "xctgn7papz",
+    "usedWebp": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "eBay Listing",
+        "meta_descr": "Ebay listing for Lenovo ThinkCentre M75n Athlon Silver",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "aheader1",
+          "_sourceTheme": "lodgem5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header1 lodgem5\" group=\"Headers\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"20\" max=\"100\" step=\"1\" value=\"67\">\n        <header>Show / Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <select title=\"Vertical Align\" name=\"verticalAlign\" condition=\"fullScreen\">\n            <option value=\"flex-start\">Top</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\" selected>Bottom</option>\n        </select>\n        <select title=\"Horizontal Align\" name=\"horizontalAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/img-20231204-033629-copy-2000x1123.jpeg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#45494E\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"bg.type!='color' && overlay\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"content-wrap col-12\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title, .mbr-section-btn\" mbr-if=\"showTitle\">Lenovo ThinkCentre M75n Nano&nbsp;</h1>\n                <p class=\"mbr-fonts-style mbr-text mbr-white mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">This M75n is confirmed to power on and to be in working condition <br>This item was pre-owned and lightly used. <br>It may have minor cosmetic wear&nbsp;that is typically associated with the standard use of this item Nothing has effected the functioning or quality of this item.</p>\n\n                <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v3-cpu-ekg mbr-iconfont mbr-iconfont-btn\"></span>ATHLON SILVER CPU&nbsp;</a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v3-windows-drive mbr-iconfont mbr-iconfont-btn\"></span>128GB SSD<br></a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"imind-chip mbr-iconfont mbr-iconfont-btn\"></span>4GB RAM</a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v4-plugin-1 mbr-iconfont mbr-iconfont-btn\"></span>POWER CORD</a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"imind-windows-microsoft mbr-iconfont mbr-iconfont-btn\"></span>WIN 10 PRO&nbsp;</a> <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-analogue-antenna mbr-iconfont mbr-iconfont-btn\"></span>ANTENNA</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "display": "flex",
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            "align-items": "~\"@{verticalAlign}\"",
+            "@media (min-width: 768px)": {
+              ".row": {
+                "justify-content": "~\"@{horizontalAlign}\""
+              },
+              ".content-wrap": {
+                "width": "~\"@{contentWidth}%\""
+              }
+            },
+            ".content-wrap": {
+              "@media (max-width: 991px)": {
+                "width": "100%"
+              }
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "50px",
+              "@media (max-width: 767px)": {
+                "text-align": "center",
+                "margin-bottom": "30px"
+              }
+            },
+            ".mbr-text": {
+              "@media (max-width: 767px)": {
+                "text-align": "center"
+              },
+              "text-align": "left",
+              "color": "#ffffff"
+            },
+            ".mbr-section-btn": {
+              "@media (max-width: 767px)": {
+                "text-align": "center"
+              }
+            },
+            ".mbr-section-title, .mbr-section-btn": {
+              "text-align": "left"
+            }
+          },
+          "_cid": "tXzO3ydY7H",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "aheader1-1"
+        },
+        {
+          "_name": "features4",
+          "_sourceTheme": "electricm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features4 electricm5\" group=\"Features\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <header>Cards</header>\n        <input type=\"checkbox\" title=\"Card Name\" name=\"showName\">\n        <input type=\"checkbox\" title=\"Card Role\" name=\"showRole\" checked>\n        <input type=\"color\" title=\"Active Color\" value=\"#000000\" name=\"active\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/electricm5/components/_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/electricm5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1b1b1b\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"item features-image сol-12 col-lg-4\">\n                <div class=\"item-wrapper\">\n                    <a href=\"#\">\n                        <div class=\"item-img\">\n                            <img src=\"@PROJECT_PATH@/assets/images/img-20231204-33652-928x696.jpeg\" alt>\n                        </div>\n                        <div class=\"item-content\">\n                            <p class=\"mbr-name mbr-fonts-style\" mbr-if=\"showName\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-name\"></p>\n                            <p class=\"mbr-role mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-role\" mbr-if=\"showRole\">Shipping is $29.99 this covers the operation cost of fulfilling the order, it includes cost of packaging materials, transportation of order to company handling shipment, insurance on shipment, and shipping cost by shipping company.</p>\n                        </div>\n                    </a>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-lg-4\">\n                <div class=\"item-wrapper\">\n                    <a href=\"#\">\n                        <div class=\"item-img\">\n                            <img src=\"@PROJECT_PATH@/assets/images/img-20231204-033712-copy-928x696.jpeg\" alt>\n                        </div>\n                        <div class=\"item-content\">\n                            <p class=\"mbr-name mbr-fonts-style\" mbr-if=\"showName\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-name\"></p>\n                            <p class=\"mbr-role mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-role\" mbr-if=\"showRole\"></p>\n                        </div>\n                    </a>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-lg-4\">\n                <div class=\"item-wrapper\">\n                    <a href=\"#\">\n                        <div class=\"item-img\">\n                            <img src=\"@PROJECT_PATH@/assets/images/img-20231204-033739-copy-928x696.jpg\" alt>\n                        </div>\n                        <div class=\"item-content\">\n                            <p class=\"mbr-name mbr-fonts-style\" mbr-if=\"showName\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-name\"></p>\n                            <p class=\"mbr-role mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-role\" mbr-if=\"showRole\"></p>\n                        </div>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "& when (@fullWidth)": {
+              ".container-fluid": {
+                "padding": "0 40px",
+                "@media (max-width: 992px)": {
+                  "padding": "0 20px"
+                }
+              }
+            },
+            ".container": {
+              "@media (max-width: 992px)": {
+                "padding": "0 20px"
+              }
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            ".item": {
+              "margin-bottom": "120px",
+              "@media (max-width: 992px)": {
+                "margin-bottom": "50px"
+              },
+              ".item-wrapper": {
+                "a": {
+                  "display": "block",
+                  "&:hover": {
+                    ".item-content": {
+                      ".mbr-name": {
+                        "color": "@active"
+                      },
+                      ".mbr-role": {
+                        "color": "@active"
+                      }
+                    }
+                  },
+                  ".item-img": {
+                    "margin-bottom": "30px",
+                    "@media (max-width: 992px)": {
+                      "margin-bottom": "24px"
+                    },
+                    "img": {
+                      "height": "412px",
+                      "object-fit": "cover",
+                      "@media (max-width: 992px)": {
+                        "height": "300px"
+                      }
+                    }
+                  },
+                  ".item-content": {
+                    ".mbr-name": {
+                      "margin-bottom": "0",
+                      "transition": "all 0.3s ease-in-out"
+                    },
+                    ".mbr-role": {
+                      "margin-bottom": "0",
+                      "transition": "all 0.3s ease-in-out"
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-name": {
+              "color": "#ffffff"
+            },
+            ".mbr-role": {
+              "color": "#000000"
+            }
+          },
+          "_cid": "tXzPDkBtSu",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features4-2"
+        }
+      ]
+    }
+  }
+}
